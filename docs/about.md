@@ -25,10 +25,11 @@ mstProjectCOM.idl | mstProjectCOM 1.0 Type Library | 0F11628B-DFE5-45FF-B0BE-F61
 mstRouteCOM.idl | mstRouteCOM 1.0 Type Library | B491E8A1-16A1-4FDC-A4F5-15313C547E72 | mstRouteCom.nrx | Interop.mstRouteCOMLib.dll | `\Stable_API\Model Studio CS\Source\mstRouteCom` |  Нет данных [5]
 NWEViewerComponent.idl | Interop.NWEViewerComponentLib | Нет данных| Interop.NWEViewerComponentLib.dll | `\Stable_API\Model Studio CS\Source\ViewerComponent\NWEViewerComponent` | (?) Компонент для работы со сценой модели и камерой
 p4darx2dlayout.idl | p4darx-2dlayout 1.0 Type Library | E2A750C7-1A29-4B75-9E5B-B26230AD5A1B | Нет данных | Нет данных | Нет данных | Нет данных
-ProfileView.idl | Model Studio LINE 1.0 Type Library | 4CE7FBFF-1896-44CB-B18A-A59F8BEA4584 |Нет данных  | Нет данных | `\Stable_API\Model Studio CS\Source\ProfileView` | Нет данных [6]
-
-
-
+ProfileView.idl | Model Studio LINE 1.0 Type Library | 4CE7FBFF-1896-44CB-B18A-A59F8BEA4584 | Нет данных  | Нет данных | `\Stable_API\Model Studio CS\Source\ProfileView` | Нет данных [6]
+ProfileViewCOM.idl | Model Studio LINE Objects 1.0 Type Library | CEC0A97B-2CAF-4592-8F9E-05AA1A046A04 | ProfileViewCOM.nrx, ProfileViewObjects.nrx | Interop.mdsLINEComLib.dll | `\Stable_API\Model Studio CS\Source\ProfileViewCOM`, `\Stable_API\Model Studio CS\Source\ProfileViewObjects` | нет данных [6]
+SCXComponentsLib.idl | SCXComponentsLib 1.0 Type Library | F892997C-0DAF-41C0-8698-08A1051A491B | Нет данных | Interop.SCXComponentsLibLib.dll | `\Stable_API\Model Studio CS\Source\SCXComponentsLib` | Нет данных 
+ShieldCSCOM.idl | CSShieldCSCOM 1.0 Type Library | 8A409328-0318-49DD-98A0-5E90E5668A65 | Нет данных | Нет данных | `\Stable_API\Model Studio CS\Source\ShieldCSCom` | (?) Возможно, Компоновщик щитов
+rvm.idl | Нет данных | Нет данных | (?) rvmManager.dll |  Нет данных | `\Stable_API\Model Studio CS\Source\rvm`, `\Stable_API\Model Studio CS\Source\rvmManager` |  Нет данных 
 
 
 
