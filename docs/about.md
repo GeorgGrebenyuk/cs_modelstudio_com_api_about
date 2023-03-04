@@ -9,4 +9,12 @@ IDL Name | Название библиотеки | Идентификатор б
 SchematiCSCOM.idl | Model Studio CS Schema 1.0 Type Library | 0186D491-6D1A-496d-8E1C-94427E1F66D2 | SchematiCSCOM.nrx | Interop.SchematiCSCOMLib.dll | `\Stable_API\Model Studio CS\Source\SchematiCSCOM` | (?) Доступ к объектной модели ModelStudio
 ViperCSObjCom.idl | vCSViperCSObjCom 1.0 Type Library| F4A0D05F-A659-4EEC-9021-DCF12867B9B8| ViperCSObjCom.nrx | Interop.vCSViperCSObjComLib.dll |`\Stable_API\Model Studio CS\Source\ViperCSObjCom` | Описание интерфейсов объектов трубопроводов
 UnitsCSCom.idl | Model Studio Objects 1.0 Type Library | 1AE1985C-5D87-4E89-8E67-068628FC3CD6 | UnitsCSCom.nrx | Отсутствует | `\Stable_API\Model Studio CS\Source\UnitsCSCom` | Описание интерфейсов стандартного оборудования и доступ к параметрам объектов MS
-URS.idl |Model Studio Unified Reporting Service 1.0 Type Library | 70A33123-81A3-4C4B-8A90-CFEDD3A35994 | URS.nrx | Interop.mdsURSLib.dll | `\Stable_API\Model Studio CS\Source\URS` | Описание профиля (настроек) для отчетов у системы документирования ModelStudio. Интерфейс называется IURSApplication, метод для получения отчета – CreateReport. В качестве параметра туда можно передать название профиля экспорта из настроек MS, полный путь к профилю экспорта или профиль экспорта в виде MSXMLDom. На выходе получается COM-объект типа MSXMLDom.
+URS.idl |Model Studio Unified Reporting Service 1.0 Type Library | 70A33123-81A3-4C4B-8A90-CFEDD3A35994 | URS.nrx | Interop.mdsURSLib.dll | `\Stable_API\Model Studio CS\Source\URS` | Описание профиля (настроек) для отчетов у системы документирования ModelStudio. [1]
+LibManager.idl | Model Studio Library Manager 1.0 Type Library | 1EB7B184-2C93-4DB2-97E8-2F8A392495C1 | lcsLibManager.nrx | Interop.mdsLibManagerLib.dll | `\Stable_API\Model Studio CS\Source\LibManager`| (?) Работа с библиотекой стандартных компонентов
+linCSCom.idl | Model Studio ELAY Objects 1.0 Type Library | DF15E75B-C049-49EE-881F-DAA87873E483 | linCSCom.nrx | Отсутствует | `\Stable_API\Model Studio CS\Source\linCSCom` | Интерфейсы для MS ELAY (ОРУ: Открытые распределительные устройства)
+
+
+
+## Примечания:
+
+[1]: Интерфейс называется IURSApplication, метод для получения отчета – CreateReport. В качестве параметра туда можно передать название профиля экспорта из настроек MS, полный путь к профилю экспорта или профиль экспорта в виде MSXMLDom. На выходе получается COM-объект типа MSXMLDom.
